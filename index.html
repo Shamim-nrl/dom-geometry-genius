@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dom</title>
+</head>
+
+<body style="display: flex;">
+  <div style="border: 2px solid; width: 25%; margin:auto; text-align: center;">
+    <div>
+        <img src="./images/triangle.png" alt="">
+        <br>
+        <input id="input-base" type="text" placeholder="base">
+        <span>cm</span>
+        <input id="input-height" type="text" placeholder="height">
+        <span >cm</span>
+        <br>
+        <span>result:</span>
+        <span id="area"></span>
+        <span>cm</span>
+        <br>
+        <button onclick="pressBtn()">press</button>
+    </div>
+  </div>
+  <!-- secend  -->
+  <div style="border: 2px solid; width: 25%; margin:auto; text-align: center;">
+    <div>
+        <img src="./images/rectangle.png" alt="">
+        <br>
+        <input id="input-width" type="text" placeholder="w">
+        <span>cm</span>
+        <input id="input2" type="text" placeholder="I">
+        <span >cm</span>
+        <br>
+        <span>result:</span>
+        <span id="rectangle-area"></span>
+        <span>cm</span>
+        <br>
+        <button onclick="calculate()">press</button>
+    </div>
+  </div>
+<script src="./js/index.js"></script>
+</body>
+
+</html>
